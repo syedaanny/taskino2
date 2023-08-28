@@ -160,6 +160,7 @@ p.hero-des {
         align-content: space-between;
         justify-content: space-around;
         padding-left: 0%;
+            padding-top: 6em;
     }
     .hero_left_side {
         width: 87%;
@@ -336,8 +337,8 @@ p.hero-des {
     }
     .right-side-img-4 {
         left: -2em;
-        height: 49vh;
-        top: 5em;
+        height: 33vh;
+        top: 8em;
         max-width: 64vw;
     }
     .right-side-img-3 {
@@ -357,10 +358,11 @@ p.hero-des {
 
 @media ( max-width: 417px) {
 
-button.signupBtn {
-    width: auto;
-    font-size: 1.2rem;
-}
+    button.signupBtn {
+        font-size: 1.2rem;
+        width: 31vw;
+        height: 8vh;
+    }
 .hero_title {
     width: 97%;
     font-size: 2rem;
