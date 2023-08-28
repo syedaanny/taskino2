@@ -1,0 +1,243 @@
+.navbar {
+  background-color: transparent;
+  padding: 1rem 0;
+  width: 84%;
+  height: 12vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:relative;
+}
+
+ .logo {
+  float: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  z-index: 9999;
+}
+.taskino-image{
+  position: relative;
+width: 4.82rem;
+height: 4.82rem;
+
+}
+
+
+
+
+
+
+/* menu list css */
+.menu {
+  width: 50%;
+  text-align: right;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.menu li a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.active_nav{
+  color: black!important;
+}
+.menu li a {
+  color: #666666;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: .015rem;
+}
+
+
+.right_nav_list {
+  display: contents;
+}
+/* for buttons css */
+
+.authButtons {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+button.loginBtn {
+  width: 27%;
+  height: 7vh;
+  border: 0.01em solid #807e7e;
+  border-radius: 0.4em;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-right: 1em;
+  background-color: transparent;
+  color: #525252;
+  cursor: pointer;
+  padding: 0.4em;
+}
+
+button.loginBtn:hover {
+  border: .01em solid #807e7e;
+}
+
+
+
+
+button.signupBtn {
+  width: 9vw;
+    border-radius: 0.6em;
+    height: 7vh;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #0099ff!important;
+    box-shadow: 0px 10px 20px rgba(38, 158, 238, 0.25);
+    border: 0.01em solid #0099ffde;
+    color: white;
+    margin-right: 1em;
+    cursor: pointer;
+    /* padding: 0.54em; */
+}
+
+button.signupBtn:hover {
+  background-color: #0A9DFF;
+  color: white;
+}
+
+
+/* hamburger css */
+
+
+.hamburger_icon {
+  display: none;
+}
+#check{
+  display: none;
+}
+.hamburger_icon .fa-close{
+  display: none;
+}
+
+.hero_button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+
+
+@media (max-width: 886px) {
+  .hamburger_icon {
+    font-size: 2.3rem;
+z-index: 9999;
+    display: flex;
+  }
+
+
+ #check:checked~.hamburger_icon .fa-bars{
+  display: none;
+ }
+
+ #check:checked~.hamburger_icon .fa-close{
+  display: block;
+ }
+
+ #check:checked~.right_nav_list {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  overflow: hidden;
+  justify-content: center;
+  z-index: 999;
+  align-items: center;
+}
+  .navbar {
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+
+
+
+  .right_nav_list {
+    position: fixed;
+
+    width: 100%;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    justify-items: center;
+    align-content: space-evenly;
+    z-index: 1;
+    height: 0;
+    display: none;
+    background: #67ccf3;
+}
+.menu {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0.1em;
+}
+
+
+.menu li a {
+  color: black;
+  font-weight: bold;
+  line-height: 3rem;
+  font-size: 1.62rem;
+  letter-spacing: .042rem;
+  text-transform: capitalize;
+}
+
+
+.authButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  padding-left: 1em;
+}
+
+
+    button.loginBtn {
+    width: auto;
+    margin-bottom: 1em;
+    padding: 0.4em;
+}
+
+button.signupBtn {
+  width: 20%;
+  padding: 0.4em;
+  height: 8vh;
+  font-weight: 600;
+}
+}
+
+
+
+
+

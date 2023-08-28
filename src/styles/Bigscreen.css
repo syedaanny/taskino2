@@ -1,0 +1,116 @@
+@media screen and (min-width: 1802px) and (max-width: 2700px) {
+    .taskino-image {
+      position: relative;
+      width: 9.82rem;
+      height: 9.82rem;
+    }
+  
+    .circle {
+      width: 30vw;
+      height: 52vh;
+      content: "";
+      background: linear-gradient(45deg, #1390f161, #1390f13d);
+      border-radius: 73%;
+      position: absolute;
+      top: -24em;
+      right: 7em;
+      filter: blur(5em);
+    }
+  
+    .navbar {
+      height: 22vh;
+      padding: 0;
+    }
+  
+    .menu li a {
+      font-size: 2.53rem;
+    }
+  
+    /* Remove the empty 'a' selector */
+    .menu li {
+      padding-left: 3em;
+    }
+  
+    button.loginBtn,
+    button.signupBtn,
+    .googleplay-img{
+            font-size: 2.35rem;
+            width: 9vw;
+            padding: 0;
+            height: 9vh;
+        
+    }
+  
+    .hero_title {
+      font-size: 6rem;
+      line-height: 1em;
+    }
+    .hero_left_content{
+        padding-top: 8em;
+    }
+
+    .hero_left_side {
+        padding-left: 4em!important;
+    }
+    .hero_title span {
+        font-size: 6rem!important;
+    }
+    
+    .hero-des {
+        font-size: 1.7rem!important;
+        line-height: 1.3em!important;
+    }
+    .googleplay-img {
+      width: 11vw; /* Adjust as needed */
+      border-radius: 0.6em;
+      height: 12vh; /* Adjust as needed */
+    }
+  
+    .rectangle-img2{
+        top: 4em!important;
+        position: absolute;
+        left: -17em!important;
+    }
+    
+    .review-img {
+      width: 24vw; /* Adjust as needed */
+      height: 31vh; /* Adjust as needed */
+      transform: translateY(-3em);
+    }
+    .right-side-img-2 {
+        max-width: 67vw!important;
+        width: -webkit-fill-available;
+        padding-top: 5em;
+        left: -7vw!important;
+    }
+    
+  
+    .hero_right_images {
+      width: 100%;
+      position: relative;
+    }
+  
+    img.right-side-img-4 {
+        height: 42vh;
+        left: -3em;
+        object-fit: fill;
+        top: 7em;
+    }
+  }
+  
+
+
+
+  @media screen and (min-width: 2002px) 
+
+{
+    img.right-side-img-4 {
+        left: -1em!important;
+        display: block;
+        width: 43%;
+        right: 0;
+        height: 45vh;
+    }    
+
+
+}

@@ -1,0 +1,389 @@
+section.hero_section {
+
+    background-color: #EEfAFF;
+    background-image: url(/img/background_upper_wave.png);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 78%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero_container {
+    padding-top: 4em;
+    padding-left: 4em;
+    width: 100%;
+    height: 88vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_left_side {
+    width: 48%;
+    padding-top: 4em;
+    padding-left: 1em;
+    position: relative;
+}
+.hero_left_content {
+    width: 98%;
+}
+.rectengle-demo {
+    width: auto;
+    height: auto;
+    position:absolute
+}
+.rectangle-img2 {
+    top: -4em;
+    position: absolute;
+    left: -18em;
+}
+
+.hero_title span {
+    background: linear-gradient(267.36deg, #0099ff, #76c6fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+.hero_title {
+    line-height: 1em;
+    text-align: left;
+    font-size: 3.8vw;
+    width: auto;
+    color: black;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 0.1em;
+    margin: auto;
+}
+
+
+p.hero-des {
+    font-size: 1.16rem;
+    line-height: 1.55rem;
+    font-weight: 600;
+    font-family: var(--font-plus-jakarta-sans);
+    color: #525252;
+    text-align: left;
+    width: auto;
+    word-spacing: 0.01em;
+}
+
+.googleplay-img {
+    width: 10vw;
+    border-radius: 0.6em;
+    height: 10vh;
+}
+
+
+.review-img {
+    width: 24vw;
+    height: 29vh;
+    transform: translateY(-1em);
+}
+
+/* right side css */
+.right_side {
+    width: 62%;
+    height: auto;
+    position: relative;
+}
+.hero_right_images {
+    position: relative;
+}
+ .hero_right_images img {
+    position: absolute;
+} 
+ .right-side-img-1 {
+   
+    left: 14vw;
+    height: 38em;
+    top: -21em;
+    transform: rotate(188deg);
+    width: 81%;
+    border-radius: 50%;
+    filter: blur(2em);
+}
+
+.right-side-img-2 {
+    max-width: 56vw;
+    object-fit: fill;
+    left: -4vw;
+    height: 81vh;
+    top: -39vh;
+    z-index: 9;
+}
+.right-side-img-3 {
+    width: 40%;
+    right: 0;
+    top: -7em;
+    height: 52vh;
+}
+.right-side-img-4 {
+    max-width: 26vw;
+    left: -1.949vw;
+    top: 0;
+    transform: rotate3d(2, 0, 8, 8deg);
+    z-index: 1;
+    height: 48vh;
+    object-fit: contain;
+} 
+.circle {
+    width: 30vw;
+    height: 52vh;
+    content: "";
+    background: linear-gradient(45deg, #1390f161, #1390f13d);
+    border-radius: 73%;
+    position: absolute;
+    top: -14em;
+    right: 3em;
+    filter: blur(5em);
+}
+
+
+
+
+@media (max-width: 886px) {
+    .hero_container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-around;
+        padding-left: 0%;
+    }
+    .hero_left_side {
+        width: 87%;
+        text-align-last: center;
+        padding-left: 0.1em;
+        height: min-content;
+        padding-top: 1.73em;
+
+        
+    }
+    .hero_left_content {
+        width: 98%;
+        text-align-last: center;
+    }
+    .hero_title span {
+        font-size: 3rem;
+        font-weight: 800;
+        font-family: '__Inter_20951f';
+    }
+    .hero_title {
+        font-size: 2.6rem;
+        padding-bottom: 0.21em;
+    }
+    p.hero-des {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 1.4em;
+        margin-top: 1.4em;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    section.hero_section {
+        background: #EEfAFF;
+        overflow: auto;
+    }
+
+    button.signupBtn {
+        width: 14vw;
+        padding: 0.4em;
+        height: 8vh;
+        font-weight: 600;
+    }
+    .googleplay-img {
+        width: 21%;
+        height: 11vh;
+    }
+  
+    .hero_button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .review-img {
+        width: 37vw;
+        height: 34vh;
+    }
+  
+    .hero_right_images {
+        width: 100%;
+        height: 68vh;
+    }
+    .right_side {
+        width: 100%;
+        height: 56vh;
+        position: relative;
+    }
+    .right-side-img-2 {
+        top: -2em;
+        left: 9em;
+        max-width: 73vw;
+        height: 82vh;
+    }
+
+    .right-side-img-3 {
+        width: 45%;
+        right: 0;
+        top: -2em;
+        height: 83vh;
+    }
+
+    .right-side-img-4 {
+        left: 10em;
+        top: 12em;
+        max-width: 34vw;
+        height: 49vh;
+    }
+    .rectangle-img2{
+        display: none;
+    }
+
+    
+
+    .circle {
+        top: 2em;
+        right: 4em;
+        width: 58%;
+    }
+
+
+
+}
+
+
+
+  @media ( max-width: 642px) {
+    button.signupBtn {
+        width: 20vw;
+        height: 9vh;
+    }
+    .googleplay-img {
+        width: 21vw;
+        height: 11vh;
+    }
+    .review-img {
+        width: 44vw;
+        height: 32vh;
+    }
+    button.loginBtn {
+        width: 18vw;
+        height: 9vh;
+    }
+    .right-side-img-2 {
+        top: -1em;
+        left: 1em;
+        max-width: 97vw;
+        height: 82vh;
+    }
+    .right-side-img-4 {
+        left: 4em;
+        top: 14em;
+        max-width: 42vw;
+        height: 43vh;
+    }
+  }
+
+  @media ( max-width: 537px) {
+    .right-side-img-2 {
+        left: 0;
+        max-width: 99vw;
+        height: 81vh;
+        object-fit: contain;
+    }
+    .review-img {
+        width: 57vw;
+        height: 29vh;
+    }
+    .googleplay-img {
+        width: 28vw;
+        height: 11vh;
+        object-fit: fill;
+    }
+    p.hero-des {
+        width: 94%;
+        padding: 0;
+    }
+    .hero_title {
+        width: 80%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .hero_right_images {
+        height: auto;
+    }
+    .right-side-img-2 {
+        left: 0em;
+        max-width: 98vw;
+        height: 53vh;
+        object-fit: fill;
+    }
+    .right-side-img-4 {
+        left: 1em;
+        height: 36vh;
+        top: 7em;
+        max-width: 44vw;
+    }
+    .right-side-img-3 {
+        height: 43vh;
+        top: 1em;
+        width: 35vw;
+    }
+
+
+
+
+  }
+
+  /* .hero_left_side {
+    width: 98%;
+} */
+
+@media ( max-width: 417px) {
+
+button.signupBtn {
+    width: 33%;
+}
+.hero_title {
+    width: 97%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p.hero-des {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
