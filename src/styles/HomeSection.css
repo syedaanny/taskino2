@@ -337,10 +337,13 @@ p.hero-des {
     }
     .right-side-img-4 {
         left: -2em;
-        height: 33vh;
+        height: 35vh;
         top: 8em;
-        max-width: 64vw;
+        max-width: 61vw;
     }
+    
+    
+
     .right-side-img-3 {
         height: 43vh;
         top: 1em;
