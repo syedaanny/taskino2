@@ -255,9 +255,10 @@ p.hero-des {
     
 
     .circle {
-        top: 2em;
-        right: 4em;
+        top: 0em;
+        right: 0em;
         width: 58%;
+        height: 46vh;
     }
 
 
@@ -309,7 +310,7 @@ p.hero-des {
         height: 29vh;
     }
     .googleplay-img {
-        width: 28vw;
+        width: 35vw;
         height: 11vh;
         object-fit: fill;
     }
@@ -334,10 +335,10 @@ p.hero-des {
         object-fit: fill;
     }
     .right-side-img-4 {
-        left: 1em;
-        height: 36vh;
-        top: 7em;
-        max-width: 44vw;
+        left: -2em;
+        height: 49vh;
+        top: 5em;
+        max-width: 64vw;
     }
     .right-side-img-3 {
         height: 43vh;
@@ -357,7 +358,8 @@ p.hero-des {
 @media ( max-width: 417px) {
 
 button.signupBtn {
-    width: 33%;
+    width: auto;
+    font-size: 1.2rem;
 }
 .hero_title {
     width: 97%;
@@ -369,7 +371,10 @@ p.hero-des {
     font-size: 1rem;
     font-weight: 600;
 }
-
+.review-img {
+    width: 74vw;
+    height: 27vh;
+}
 }
 
 
