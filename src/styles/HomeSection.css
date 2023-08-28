@@ -335,14 +335,14 @@ p.hero-des {
         height: 53vh;
         object-fit: fill;
     }
-    .right-side-img-4 {
-        left: -2em;
-        height: 35vh;
-        top: 8em;
-        max-width: 61vw;
-    }
-    
-    
+.right-side-img-4 {
+    left: -2em;
+    height: 35vh;
+    top: 8em;
+    max-width: 61vw;
+}
+
+
 
     .right-side-img-3 {
         height: 43vh;
@@ -380,6 +380,14 @@ p.hero-des {
     width: 74vw;
     height: 27vh;
 }
+.right-side-img-4 {
+    left: -2em;
+    height: 35vh;
+    top: 8em;
+    max-width: 61vw;
+}
+
+
 }
 
 
