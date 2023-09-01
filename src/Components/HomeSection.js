@@ -50,17 +50,26 @@ const HomeSection = () => {
 
       <div className='right_side'>
 
+
+
+
+
+
       <div className='hero_right_images'>
+<Image src="/img/ellipse-end.png" width="502" height="310" className='right-side-img-3' /> 
+
 {/* <Image src="/img/ellipse_bg.png" width="802" max-width="320" height="410" className='right-side-img-1' /> */}
 <div className='circle'></div>
 
 
 
 
-
+<div className='font-mobile'>
       <Image src="/img/group_phone.png" width="1000"  height="410" className='right-side-img-2' />
-<Image src="/img/ellipse-end.png" width="502" height="310" className='right-side-img-3' /> 
 <Image src="/img/group_task_timer.png" width="502"  height="310" className='right-side-img-4' /> 
+</div>
+
+
 </div>  
       </div>
 
