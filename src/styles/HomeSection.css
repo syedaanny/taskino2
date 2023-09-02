@@ -208,10 +208,10 @@ p.hero-des {
     }
 
     .hero_title {
-        font-size: 2.6rem;
+        font-size: 6.6vw;
         padding-bottom: 0.21em;
+        line-height: 8.4vh;
     }
-
     p.hero-des {
         width: 100%;
         height: auto;
