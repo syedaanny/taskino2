@@ -1,176 +1,184 @@
+/* @import */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Plus+Jakarta+Sans:wght@500;700&display=swap');
 
-  /* @import */
-  @font-face {
-    font-family: 'Plus Jakarta Sans';
-    src:  url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Plus+Jakarta+Sans:wght@500;700&display=swap');
-
-  }
-
-  @font-face {
-    font-family: 'Poppins';
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700&display=swap');
-
-  }
-
-
-
-
-    
-
-  .navbar {
-    background-color: transparent;
-    padding: 1rem 0;
-    width: 84%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    gap: 5em;
 }
-  
-  
-  .logo {
-    float: left;
-    width: 12%;
-    height: 100%;
-    margin-right: 1rem;
-    z-index: 9999;
-  }
-  
-  
-  .taskino-image {
-    height: fit-content;
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700&display=swap');
+
 }
-  
-  
-  /* menu list css */
-  .menu {
-    width: 50%;
-    text-align: right;
-  }
-  .menu li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 2vw;
-  }
-  
-  
-  .menu li a:hover {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  .active_nav{
-    color: black!important;
-  }
-  .menu li a {
-    color: #b3b3b3;
-    text-decoration: none;
-    font-size: 1.3vw;
-    font-weight: 600;
-    font-family: '__Poppins_baf6f6';
-    letter-spacing: .03rem;
+
+
+
+
+
+
+.navbar {
+  background-color: transparent;
+  padding: 1rem 0;
+  width: 84%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 5em;
 }
-  .right_nav_list {
-    display: contents;
-  }
-  /* for buttons css */
-  
-  .authButtons {
-    width: 30%;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  
-  
-  button.loginBtn {
-    width: 27%;
-    height: 7vh;
-    border: 0.01em solid #807e7e;
-    border-radius: 0.4em;
-    font-weight: 600;
-    font-size: 1.46vw;
-    margin-right: 1em;
-    background-color: transparent;
-    color: #525252;
-    cursor: pointer;
-    padding: 0.4em;
-}
-  
-  button.loginBtn:hover {
-    border: .01em solid #807e7e;
-  }
-  
-  
-  
-  
-  button.signupBtn {
-    width: 9vw;
-      border-radius: 0.6em;
-      height: 8vh;
-      font-size: 1.5vw;
-      font-weight: 600;
-      background-color: #0099ff!important;
-      box-shadow: 0px 10px 20px rgba(38, 158, 238, 0.25);
-      border: 0.01em solid #0099ffde;
-      color: white;
-      margin-right: 1em;
-      cursor: pointer;
-      /* padding: 0.54em; */
-  }
-  
-  button.signupBtn:hover {
-    background-color: #0A9DFF;
-    color: white;
-  }
-  
-  
-  /* hamburger css */
-  
-  
-  .hamburger_icon {
-    display: none;
-  }
-  #check{
-    display: none;
-  }
-  .hamburger_icon .fa-close{
-    display: none;
-  }
-  
-  .hero_button {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  
-  
-  
-  
-  @media (max-width: 886px) {
-    .hamburger_icon {
-      font-size: 2.3rem;
+
+
+.logo {
+  float: left;
+  width: 12%;
+  height: 100%;
+  margin-right: 1rem;
   z-index: 9999;
-      display: flex;
-    }
-  
-  
-   #check:checked~.hamburger_icon .fa-bars{
+}
+
+
+.taskino-image {
+  width: 70%;
+  height: fit-content;
+}
+
+/* menu list css */
+.menu {
+  width: 50%;
+  text-align: right;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2vw;
+}
+
+
+.menu li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.active_nav {
+  color: black !important;
+}
+
+.menu li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 1.3vw;
+  font-weight: 600;
+  font-family: '__Poppins_baf6f6';
+  letter-spacing: .03rem;
+}
+
+.right_nav_list {
+  display: contents;
+}
+
+/* for buttons css */
+
+.authButtons {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+button.loginBtn {
+  width: 8vw;
+  height: 8vh;
+  border: 0.01em solid #807e7e;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-right: 1em;
+  background-color: transparent;
+  color: #525252;
+  padding: 0.06rem 0rem;
+  box-sizing: border-box;
+
+
+}
+
+button.loginBtn:hover {
+  border: .01em solid #807e7e;
+}
+
+
+
+button.signupBtn {
+  width: 9vw;
+  height: 8vh;
+  background-color: #0099ff !important;
+  text-align: center;
+  color: white;
+  margin-right: 1em;
+  padding: 0.06rem 0rem;
+  box-sizing: border-box;
+  border: 0.01em solid #0099ffde;
+  box-shadow: 0px 10px 20px rgba(38, 158, 238, 0.25);
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+button.signupBtn:hover {
+  background-color: #0A9DFF;
+  color: white;
+}
+
+
+/* hamburger css */
+
+
+.hamburger_icon {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.hamburger_icon .fa-close {
+  display: none;
+}
+
+.hero_button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+
+@media (max-width: 886px) {
+  .hamburger_icon {
+    font-size: 2.3rem;
+    z-index: 9999;
+    display: flex;
+  }
+
+
+  #check:checked~.hamburger_icon .fa-bars {
     display: none;
-   }
-  
-   #check:checked~.hamburger_icon .fa-close{
+  }
+
+  #check:checked~.hamburger_icon .fa-close {
     display: block;
-   }
-  
-   #check:checked~.right_nav_list {
+  }
+
+  #check:checked~.right_nav_list {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -180,31 +188,33 @@
     z-index: 999;
     align-items: center;
   }
-    .navbar {
-      width: 78%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+
+  .navbar {
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-   
-  
-  
-  
-  
-    .right_nav_list {
-      position: fixed;
-  
-      width: 100%;
-      top: 0;
-      right: 0;
-      overflow: hidden;
-      justify-items: center;
-      align-content: space-evenly;
-      z-index: 1;
-      height: 0;
-      display: none;
-      background: #67ccf3;
+
+
+
+
+
+  .right_nav_list {
+    position: fixed;
+
+    width: 100%;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    justify-items: center;
+    align-content: space-evenly;
+    z-index: 1;
+    height: 0;
+    display: none;
+    background: #67ccf3;
   }
+
   .menu {
     margin-top: 1rem;
     display: flex;
@@ -213,18 +223,17 @@
     align-items: center;
     padding-left: 0.1em;
   }
-  
-  
+
+
   .menu li a {
-    color: black;
-    font-weight: bold;
+    color: #383333;
+    font-weight: 500;
     line-height: 3rem;
-    font-size: 1.62rem;
+    font-size: 1.2rem;
     letter-spacing: .042rem;
     text-transform: capitalize;
   }
-  
-  
+
   .authButtons {
     display: flex;
     flex-direction: column;
@@ -232,25 +241,21 @@
     width: auto;
     padding-left: 1em;
   }
-  
-  
+
+
   button.loginBtn {
     font-size: larger;
     width: -webkit-fill-available;
     padding: 0.4em;
     margin-bottom: 1vh;
-}
-  
+  }
+
   button.signupBtn {
     width: fit-content;
     padding: 0.4em;
     height: 8vh;
     font-weight: 600;
     font-size: larger;
+  }
+
 }
-  
-}
-  
-  
-  
-  

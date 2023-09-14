@@ -1,24 +1,21 @@
 section.hero_section {
-
     background-color: #EEfAFF;
     background-image: url(/img/background_upper_wave.png);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     position: absolute;
     top: 0;
     background-repeat: no-repeat;
-    background-size: 100% 78%;
+    background-size: 100% 70%;
+    background-attachment: local;
     margin: 0;
     overflow: hidden;
 }
-
-
-
 .hero_container {
-    padding-top: 12vh;
+    /* padding-top: 12vh; */
     padding-left: 5vw;
     width: 100%;
-    height: 88vh;
+    height: 77vh;
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -28,43 +25,43 @@ section.hero_section {
 
 .hero_left_side {
     width: auto;
-    padding-top: 13vh;
+    /* padding-top: 9%; */
     padding-left: 2vw;
     position: relative;
 }
 .hero_left_content {
     width: 40vw;
+    padding-top: 17%;
 }
-
 .rectengle-demo {
-    width: auto;
-    height: auto;
-    position: absolute;
+    width: 51%;
+    height: 66%;
+    position: relative;
 }
 
 .rectangle-img2 {
-    top: -10vh;
-    position: relative;
-    left: -20vw;
-    width: 19vw;
-    height: 62vh;
+    position: absolute;
+    width: 100%;
+    height: 69vh;
+    top: -4vh;
+    left: -110%;
 }
 
-
-.hero_title span {
+h2.taskino_title {
     background: linear-gradient(267.36deg, #0099ff, #76c6fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3.6vw;
+    font-size: -webkit-xxx-large;
     font-family: '__Plus_Jakarta_Sans_d21556';
-    font-weight: bold;
- 
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
 }
-
 .hero_title {
-   line-height: 9.6vh;
+    line-height: 1.2em;
     text-align: left;
-    font-size: 4vw;
+    font-size: 3.3rem;
     width: auto;
     color: black;
     font-weight: 600;
@@ -74,27 +71,34 @@ section.hero_section {
 }
 p.hero-des {
     font-weight: 600;
-    font-size: 2.8vh;
-    line-height: 4vh;
+    font-size: 1.18rem;
+    line-height: 1.4em;
     font-family: '__Plus_Jakarta_Sans_d21556';
     color: #525252;
     text-align: left;
     width: auto;
     word-spacing: 0.01em;
+    margin: 0.51em auto;
 }
-
 
 .googleplay-img {
-    width: 10vw;
+    width: 31%;
     border-radius: 0.6em;
     height: 10vh;
+    object-fit: fill;
 }
 
-
 .review-img {
-    width: 22vw;
-    height: 30vh;
-    transform: translateY(-1em);
+    width: 63%;
+    height: 29vh;
+    transform: translateY(-2em);
+    overflow: hidden;
+}
+.all-hero-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.71em;
 }
 
 /* right side css */
@@ -149,14 +153,23 @@ p.hero-des {
 }
 
 
-
-.right-side-img-4 {
+/* .right-side-img-4 {
     max-width: 24vw;
     left: -1%;
     top: 56%;
-    transform: rotate3d(2, 0, 8, 8deg);
     z-index: 1;
     height: 54%;
+    object-fit: contain;
+    width: -webkit-fill-available;
+} */
+
+
+.right-side-img-4 {
+    max-width: 24vw;
+    left: 1%;
+    top: 56%;
+    z-index: 1;
+    height: 51%;
     object-fit: contain;
     width: -webkit-fill-available;
 }
@@ -175,129 +188,227 @@ p.hero-des {
 
 
 
+/* 
+
+**********************************************************************************************************************************************************
+**********************************************************************FOR RESPONSIVE **********************************************************************
+**********************************************************************************************************************************************************
+ */
+
+
+
+@media (max-width: 1290px) {
+
+
+h2.taskino_title {
+    font-size: -webkit-xxx-large;
+}
+
+h1.hero_title {
+    font-size: 2.83rem;
+}
+
+p.hero-des {
+    font-size: 1rem;
+}
+
+
+
+
+
+}
+
+
+@media (max-width: 1097px) {
+
+
+.hero_left_content {
+    padding-right: 4%;
+}
+
+.hero_left_side {
+    width: 48%;
+}
+
+h1.hero_title {
+    font-size: 2.4rem;
+}
+
+.hero_container {
+    padding-left: 5%;
+}
+
+img.review-img {
+    width: 62%;
+    object-fit: contain;
+    transform: translate(-5%, -17%);
+}
+
+p.hero-des {
+    font-size: .86rem;
+}
+
+button.signupBtn {
+    width: 11vw;
+    font-size: 1.1rem;
+    font-family: '__Poppins_baf6f6';
+    font-weight: 500;
+}
+
+img.googleplay-img {
+    width: 33%;
+}
+
+img.rectangle-img2 {
+    left: -106%;
+    height: 58vh;
+}
+
+section.hero_section {
+    background-size: 100% 76%;
+}
+
+.logo {
+    width: 18%;
+}
+
+
+img.right-side-img-2 {
+    height: 97%;
+    left: -6%;
+}
+
+img.right-side-img-4 {
+    top: 51%;
+    left: 0%;
+    width: 46%;
+    height: 54%;
+}
+
+.hero_right_images {
+    padding-top: 7%;
+}
+
+}
+
+/* **********************************************************************************************************************************************************
+**********************************************************************************************************************************************************
+
+mobile view
+
+**********************************************************************************************************************************************************
+**********************************************************************************************************************************************************
+*/
+
 @media (max-width: 886px) {
+    section.hero_section {
+        overflow: auto;
+        background-size: 100% 51%;
+        background-attachment: local;
+    }
     .hero_container {
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-between;
-        justify-content: space-around;
-        padding-left: 0%;
-        padding-top: 6em;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        padding-left: 0;
+        justify-items: center;
     }
-
     .hero_left_side {
-        width: 87%;
+        width: 84%;
         text-align-last: center;
-        padding-left: 0.1em;
-        height: min-content;
-        padding-top: 1.73em;
-
-
     }
-
+    
     .hero_left_content {
-        width: 98%;
-        text-align-last: center;
+        width: auto;
+        padding-top: 8%;
     }
-
-    .hero_title span {
-        font-size: 3rem;
-        font-weight: 800;
-        font-family: '__Plus_Jakarta_Sans_d21556';
+    
+    h1.hero_title {
+        font-size: 2.6rem;
+        padding-top: .2em;
     }
-
-    .hero_title {
-        font-size: 6.6vw;
-        padding-bottom: 0.21em;
-        line-height: 8.4vh;
-    }
+    
     p.hero-des {
         width: 100%;
-        height: auto;
-        margin: auto;
-        margin-bottom: 1.4em;
-        margin-top: 1.4em;
+        padding-top: 0.2em;
         font-size: 1.2rem;
-        text-align: center;
+        font-weight: 600;
+        padding-bottom: .5em;
     }
-
-    section.hero_section {
-        background: #EEfAFF;
-        overflow: auto;
-    }
-
     
-
-    .googleplay-img {
-        width: 21%;
-        height: 11vh;
+    .all-hero-button {
+        width: auto;
+        place-items: center;
     }
-
+    
+    button.signupBtn {
+        width: 15vw;
+    }
     .hero_button {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    .review-img {
-        width: 37vw;
-        height: 34vh;
-    }
-    .hero_right_images {
-        width: 100%;
-        height: auto;
+    img.googleplay-img {
+        height: 11vh;
+        width: 25%;
     }
     
-    
-
-    .right_side {
-        width: 100%;
-        height: auto;
-        padding-top: 0%;
+    img.review-img {
+        width: 52%;
+        object-fit: contain;
+        height: 30vh;
+        padding-left: 6%;
     }
-
-    .right-side-img-2 {
-        top: 0em;
-        max-width: 84vw;
-        height: 76vh;
-        left: 11%;
-        top: -7%;
-    }    
-
-    .right-side-img-3 {
-        right: 0;
-        top: 0em;
-        height: 63vh;
-        width: 37%;
-    }    
-    .right-side-img-4 {
-        max-width: 37vw;
-        height: 43vh;
-        left: 15%;
-        top: 43%;
-        transform: rotateY(0);
-        object-fit: fill;
-    }
-    
-    
     .rectangle-img2 {
         display: none;
     }
-
+    
+    section.hero_section {
+        overflow: auto;
+        background-size: 100% 62%;
+        background-attachment: local;
+    }
+    .right_side {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hero_right_images {
+        width: 100%;
+        height: 79vh;
+    }
+    
+    .circle {
+        width: 58%;
+        height: 67%;
+        top: -2%;
+        /* right: -2%; */
+    }
+    
+    img.right-side-img-2 {
+        left: 24%;
+        max-width: 88%;
+        top: -10%;
+    }
+    
     .font-mobile {
         width: 100%;
-        height: auto;
-        position: relative;
-        top: 0;
-        right: 0;
+        height: 100%;
     }
-    .circle {
-        top: 0em;
-        right: 0em;
-        width: 61%;
-        height: 72%;
+    
+    img.right-side-img-4 {
+        top: 34%;
+        left: 29%;
+        max-width: 32%;
+        height: 47vh;
+    }
+    
+    img.right-side-img-3 {
+        height: 60%;
+        width: 25%;
+        top: 21%;
     }
     
 
@@ -306,10 +417,47 @@ p.hero-des {
 }
 
 
-
 @media (max-width: 642px) {
-    
-    .googleplay-img {
+    section.hero_section {
+        background-size: 100% 52%;
+    }
+    .hero_left_content {
+        padding-right: 0;
+        width: auto;
+        padding-top: 3%;
+    }
+    img.right-side-img-3 {
+        height: 60%;
+        width: 34%;
+        top: 15%;
+    }
+    img.right-side-img-2 {
+        top: -14%;
+        right: 0;
+        max-width: 100%;
+        left: 12%;
+        object-fit: fill;
+        height: 79vh;
+        width: auto;
+    }
+    img.right-side-img-4 {
+        height: 58%;
+        object-fit: fill;
+        max-width: 50%;
+        left: 11%;
+    }
+    p.hero-des {
+        font-size: 1rem;
+        padding-top: 0.4em;
+    }
+    button.signupBtn {
+        width: 18vw;
+    }
+    img.googleplay-img {
+        height: 11vh;
+        width: 27%;
+    }
+        .googleplay-img {
         width: 21vw;
         height: 11vh;
     }
@@ -321,94 +469,88 @@ p.hero-des {
 
     
 
-    .right-side-img-2 {
-        top: -1em;
-        left: 1em;
-        max-width: 97vw;
-        height: 82vh;
-    }
-
-    .right-side-img-4 {
-        left: 4em;
-        top: 14em;
-        max-width: 42vw;
-        height: 43vh;
-    }
-}
-
-@media (max-width: 537px) {
-    .right-side-img-2 {
-        left: 0;
-        max-width: 99vw;
-        height: 81vh;
-        object-fit: contain;
-    }
-
-    .review-img {
-        width: 57vw;
-        height: 29vh;
-    }
-
-    .googleplay-img {
-        width: 35vw;
-        height: 11vh;
-        object-fit: fill;
-    }
-
-    p.hero-des {
-        width: 94%;
-        padding: 0;
-    }
-
-    .hero_title {
-        width: 80%;
-        padding-left: 0;
-        padding-right: 0;
-        text-align: center;
-    }
-
-    .hero_right_images {
-        height: auto;
-    }
-
-    .right-side-img-2 {
-        left: 0em;
-        max-width: 98vw;
-        height: 53vh;
-        object-fit: fill;
-    }
-
-    .right-side-img-4 {
-        left: -2em;
-        height: 35vh;
-        top: 8em;
-        max-width: 61vw;
-    }
-
-
-
-    .right-side-img-3 {
-        height: 43vh;
-        top: 1em;
-        width: 35vw;
-    }
-
-
-
 
 }
 
-/* .hero_left_side {
-    width: 98%;
-} */
+ @media (max-width: 572px) {
+h1.hero_title {
+    font-size: 2rem;
+}
 
-@media (max-width: 417px) {
+p.hero-des {
+    font-size: .9rem;
+}
 
-    button.signupBtn {
-        font-size: 1.2rem;
-        width: 31vw;
-        height: 8vh;
-    }
+p.hero-des {}
+
+img.review-img {
+    width: 66%;
+}
+
+button.signupBtn {
+    width: 20vw;
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+img.googleplay-img {}
+
+.all-hero-button {
+    gap: 0;
+}
+
+img.right-side-img-2 {
+    left: 10%;
+    max-width: 99%;
+}
+img.right-side-img-4 {
+    left: 3%;
+    width: 52%;
+    height: 63%;
+}
+}
+
+ @media (max-width: 530px) {
+
+img.right-side-img-2 {
+    width: 100%;
+    left: 0%;
+    object-fit: contain;
+}
+
+img.review-img {
+    width: 66%;
+    height: 33vh;
+    padding-top: 3%;
+}
+
+img.review-img {
+    width: 60%;
+    height: 31vh;
+    padding-top: 4%;
+    padding-left: 8%;
+}
+
+}
+
+
+@media (max-width: 490px) {
+
+.taskino-image {
+    width: 19vw;
+    height: -moz-fit-content;
+    height: 12vh;
+}
+
+
+ img.googleplay-img {
+    width: 38%;
+    height: 12vh;
+}
+button.signupBtn {
+    width: 27vw;
+    height: 8vh;
+}
 
     .hero_title {
         width: 97%;
@@ -417,22 +559,345 @@ p.hero-des {
         line-height: 7vh;
     }
 
+img.review-img {
+    width: 82%;
+    padding-left: 3em;
+}
+img.right-side-img-3 {
+    top: auto;
+    width: 39%;
+    height: 60%;
+}
+h2.taskino_title {
+    font-size: 2.8rem;
+}
+
+.circle {
+    top: 3%;
+    right: 3%;
+    height: 45vh;
+}
+
+img.right-side-img-2 {
+    top: -7%;
+    max-width: 100vw;
+    object-fit: fill;
+    height: 77%;
+    left: 0%;
+}
+
+img.right-side-img-4 {
+    height: 47%;
+    max-width: 52%;
+    object-fit: fill;
+    left: -3%;
+}
+
+h1.hero_title {
+    font-size: 1.72rem;
+    line-height: 2rem;
+    padding-top: .61em;
+}
+
+p.hero-des {
+    font-size: .89rem;
+    text-align: center;
+}
+
+
+
+
+}
+
+ @media (max-width: 340px){
+h1.hero_title {
+    font-size: 1.4rem;
+    padding-top: 0.43em;
+}
+
+
+
+.hero_left_side {
+    width: auto;
+    padding: 0 4%;
+}
+
+h2.taskino_title {font-size: 37px;}
+
+p.hero-des {
+    font-size: .7rem;
+    line-height: normal;
+}
+
+
+button.signupBtn {
+    width: 30vw;
+    font-size: 1rem;
+}
+
+
+
+.right_side {
+    height: auto;
+    top: -12%;
+}
+
+.hero_right_images {
+    height: 35vh;
+}
+
+img.right-side-img-3 {
+    width: 35%;
+    height: 36vh;
+}
+
+.circle {
+    width: 79%;
+    filter: blur(3em);
+    height: 30vh;
+}
+
+img.right-side-img-2 {
+    max-width: 100%;
+    height: -webkit-fill-available;
+    top: -30%;
+}
+
+img.right-side-img-4 {
+    width: 59%;
+    height: 78%;
+    object-fit: cover;
+}
+
+
+ }
+
+ @media (max-width: 250px){
+
+.logo {
+    width: auto;
+}
+
+img.taskino-image {
+    width: auto;
+}
+
+h1.hero_title {
+    font-size: large;
+    line-height: normal;
+}
+
+button.signupBtn {width: 54vw;margin: 0;}
+
+.hero_button {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-between;
+    justify-items: center;
+    width: auto;
+}
+
+img.googleplay-img {
+    width: 53vw;
+    height: 13vh;
+}
+
+img.review-img {
+    width: 98%;
+    height: 30vh;
+    padding-top: 0%;
+    transform: translateY(-2em);
+    padding-right: 16%;
+}
+section.hero_section {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+
+nav.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+}
+
+
+@media (min-width: 1500px) {
     p.hero-des {
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.6rem;
+        padding: 1% 0;
+    }
+    
+    h1.hero_title {
+        font-size: 3.8rem;
+        padding-top: .3em;
+    }
+    
+    h2.taskino_title {
+        font-size: 5rem;
+    }
+    
+    .hero_left_content {
+        padding-top: 14em;
+    }
+    
+    img.rectangle-img2 {top: 1em;}
+    
+    .hero_button {}
+    
+    button.signupBtn {
+        font-size: 2rem;
+        width: 11vw;
+    }
+    
+    img.googleplay-img {
+        width: 16vw;
+        height: 12vh;
+    }
+    
+    .menu li a {
+        font-size: 1.8rem;
+        font-weight: 500;
+        letter-spacing: .052em;
+    }
+    
+    button.loginBtn {width: 9vw;font-size: 2rem;}
+    
+    .hero_right_images {
+        padding-top: 4em;
     }
 
-    .review-img {
-        width: 74vw;
-        height: 27vh;
+}
+
+
+
+
+    @media (min-width: 1940px) {
+    .taskino-image {
+        width: 60%;
+        height: -moz-fit-content;
+        height: auto;
     }
 
+    .hero_title{
+        font-size: 5rem;
+    }
+    button.signupBtn{
+        font-size: 2.25rem;
+    }
+    button.loginBtn{
+        font-size: 2.25rem;
+
+    }
+
+    p.hero-des {
+        padding: 1% 0%;
+        font-size: 1.9rem;
+    }
+    
+    h2.taskino_title {
+        font-size: 5rem;
+    }
+    .hero_left_content {
+        padding-top: 26%;
+    }
     .right-side-img-4 {
-        left: -2em;
-        height: 35vh;
-        top: 8em;
-        max-width: 61vw;
+        left: 2%;
+        top: 49%;
+        width: 52%;
+        height: 67%;
     }
+    
+    
+.right-side-img-2 {
+    height: 94%;
+    object-fit: fill;
+    max-width: 100%;
+    left: -2em;
+    top: 6%;
+    width: inherit;
+}
+
+img.rectangle-img2 {
+    top: 2em;
+}
+
+img.googleplay-img {
+    width: 36%;
+    height: 12vh;
+}
+.menu li a {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .06rem;
+}
+
+
+
+}
+
+@media (min-width: 2100px){
+img.right-side-img-2 {
+    height: 95%;
+    width: 93%;
+    left: 2%;
+    top: 2%;
+}
+
+img.right-side-img-4 {
+    top: 44%;
+    width: 36%;
+    left: 12%;
+}
+
+h2.taskino_title {
+    font-size: 5rem;
+}
+
+h1.hero_title {
+    font-size: 4.9rem;
+    line-height: 1.1em;
+}
+
+.hero_left_content {padding-top: 14em;}
+
+p.hero-des {
+    font-size: 2.2rem;
+    padding: 0;
+}
+
+img.googleplay-img {
+    height: 12vh;
+    padding: 0;
+}
+
+.hero_button {
+    padding: 0;
+}
+
+.all-hero-button {
+    transform: translateY(0em);
+}
+
+img.review-img {
+    height: 33vh;
+    transform: translateY(-3em);
+}
+
+img.taskino-image {
+    height: auto;
+    width: 60%;
+}
+
+.hero_left_side {
+    padding-left: 4em;
+}
+
+.hero_left_side {}
 
 
 }
