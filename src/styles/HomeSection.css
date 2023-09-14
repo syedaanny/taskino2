@@ -10,6 +10,7 @@ section.hero_section {
     background-attachment: local;
     margin: 0;
     overflow: hidden;
+    z-index: 0;
 }
 .hero_container {
     /* padding-top: 12vh; */
@@ -45,6 +46,7 @@ section.hero_section {
     height: 69vh;
     top: -4vh;
     left: -110%;
+    z-index: -1;
 }
 
 h2.taskino_title {
@@ -93,6 +95,7 @@ p.hero-des {
     height: 29vh;
     transform: translateY(-2em);
     overflow: hidden;
+    z-index: -1;
 }
 .all-hero-button {
     display: flex;
@@ -143,13 +146,14 @@ p.hero-des {
     width: -webkit-fill-available;
     height: 100%;
     top: 1%;
-    z-index: 9;
+    z-index: -1;
 }
 .right-side-img-3 {
     width: 40%;
     right: 0;
     top: 26%;
     height: 56vh;
+    z-index: -2;
 }
 
 
@@ -168,7 +172,7 @@ p.hero-des {
     max-width: 24vw;
     left: 1%;
     top: 56%;
-    z-index: 1;
+    z-index: -1;
     height: 51%;
     object-fit: contain;
     width: -webkit-fill-available;
@@ -183,6 +187,7 @@ p.hero-des {
     top: 17%;
     right: 3em;
     filter: blur(5em);
+    z-index: -1;
 }
 
 

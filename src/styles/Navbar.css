@@ -38,12 +38,13 @@
   z-index: 9999;
 }
 
-
 .taskino-image {
-  width: 70%;
-  height: fit-content;
+  width: 73%;
+  height: 12vh;
+  z-index: -1;
+  object-fit: scale-down;
+  position: relative;
 }
-
 /* menu list css */
 .menu {
   width: 50%;
