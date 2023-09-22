@@ -172,7 +172,7 @@ p.hero-des {
     max-width: 24vw;
     left: 1%;
     top: 56%;
-    z-index: -1;
+    z-index: -2;
     height: 51%;
     object-fit: contain;
     width: -webkit-fill-available;
@@ -187,7 +187,7 @@ p.hero-des {
     top: 17%;
     right: 3em;
     filter: blur(5em);
-    z-index: -1;
+    z-index: -2;
 }
 
 
@@ -321,11 +321,12 @@ mobile view
     .hero_left_side {
         width: 84%;
         text-align-last: center;
+        padding: 0;
     }
-    
     .hero_left_content {
         width: auto;
         padding-top: 8%;
+        padding-right: 0;
     }
     
     h1.hero_title {
@@ -405,11 +406,10 @@ mobile view
     
     img.right-side-img-4 {
         top: 34%;
-        left: 29%;
-        max-width: 32%;
+        left: 28%;
+        max-width: 36%;
         height: 47vh;
     }
-    
     img.right-side-img-3 {
         height: 60%;
         width: 25%;
