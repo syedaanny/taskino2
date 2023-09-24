@@ -93,7 +93,7 @@ p.hero-des {
 .review-img {
     width: 57%;
     height: 29vh;
-    transform: translateY(-1em);
+    transform: translateY(-2em);
     overflow: hidden;
     z-index: -1;
 }
@@ -193,162 +193,6 @@ p.hero-des {
 
 
 
-/* 
-
-**********************************************************************************************************************************************************
-**********************************************************************FOR RESPONSIVE **********************************************************************
-**********************************************************************************************************************************************************
- */
-
-
-
-@media (max-width: 1290px) {
-
-    img.right-side-img-4 {
-        left: 3%;
-        max-width: 21vw;
-        object-fit: fill;
-        height: 41vh;
-    }   
-h2.taskino_title {
-    font-size: -webkit-xxx-large;
-}
-
-h1.hero_title {
-    font-size: 2.83rem;
-}
-
-p.hero-des {
-    font-size: 1rem;
-}
-
-
-
-
-
-}
-
-
-@media (max-width: 1097px) {
-
-
-.hero_left_content {
-    padding-right: 4%;
-}
-
-.hero_left_side {
-    width: 48%;
-}
-
-h1.hero_title {
-    font-size: 2.4rem;
-}
-
-.hero_container {
-    padding-left: 5%;
-}
-
-img.review-img {
-    width: 62%;
-    object-fit: contain;
-    transform: translate(-5%, -17%);
-}
-
-p.hero-des {
-    font-size: .86rem;
-}
-
-button.signupBtn {
-    width: 11vw;
-    font-size: 1.1rem;
-    font-family: '__Poppins_baf6f6';
-    font-weight: 500;
-}
-
-img.googleplay-img {
-    width: 33%;
-}
-
-img.rectangle-img2 {
-    left: -106%;
-    height: 58vh;
-}
-
-section.hero_section {
-    background-size: 100% 76%;
-}
-
-.logo {
-    width: 18%;
-}
-
-
-img.right-side-img-2 {
-    height: 97%;
-    left: -6%;
-}
-
-img.right-side-img-4 {
-    top: 51%;
-    left: 0%;
-    width: 46%;
-    height: 54%;
-}
-
-.hero_right_images {
-    padding-top: 7%;
-}
-
-}
-
-@media (max-width: 1007px) {
-
-
-    html,
-body {
-  max-width: auto;
-  overflow: visible;
-  margin: 0;
-    padding: 0;
-}
-
-img.right-side-img-4 {
-    top: 51%;
-    left: 2%;
-    max-width: 49%;
-    height: 46%;
-}
-
-h1.hero_title {
-    font-size: 2rem;
-}
-
-p.hero-des {
-    font-size: .78rem;
-}
-
-.hero_left_content {
-    padding-top: 20%;
-}
-
-.rectengle-demo {}
-
-img.rectangle-img2 {
-    top: -2em;
-    left: -107%;
-}
-
-img.review-img {
-    width: 59%;
-    height: auto;
-}
-
-.all-hero-button {}
-
-.all-hero-button {height: auto;}
-
-}
-
 
 /* **********************************************************************************************************************************************************
 **********************************************************************************************************************************************************
@@ -358,6 +202,142 @@ mobile view
 **********************************************************************************************************************************************************
 **********************************************************************************************************************************************************
 */
+/* 
+
+**********************************************************************************************************************************************************
+**********************************************************************FOR RESPONSIVE **********************************************************************
+**********************************************************************************************************************************************************
+ */
+
+
+
+    
+    
+    @media (max-width: 1097px) {
+    
+    
+    .hero_left_content {
+        padding-right: 4%;
+    }
+    
+    .hero_left_side {
+        width: 48%;
+    }
+    
+    h1.hero_title {
+        font-size: 2.4rem;
+    }
+    
+    .hero_container {
+        padding-left: 5%;
+    }
+    
+    img.review-img {
+        width: 62%;
+        object-fit: contain;
+        transform: translate(-5%, -17%);
+    }
+    
+    p.hero-des {
+        font-size: .86rem;
+    }
+    
+    button.signupBtn {
+        width: 11vw;
+        font-size: 1.1rem;
+        font-family: '__Poppins_baf6f6';
+        font-weight: 500;
+    }
+    
+    img.googleplay-img {
+        width: 33%;
+    }
+    
+    img.rectangle-img2 {
+        left: -106%;
+        height: 58vh;
+    }
+    
+    section.hero_section {
+        background-size: 100% 76%;
+    }
+    
+    .logo {
+        width: 18%;
+    }
+    
+    
+    img.right-side-img-2 {
+        height: 97%;
+        left: -6%;
+    }
+    
+    img.right-side-img-4 {
+        top: 51%;
+        left: 0%;
+        width: 46%;
+        height: 54%;
+    }
+    
+    .hero_right_images {
+        padding-top: 7%;
+    }
+    
+    }
+    
+    @media (max-width: 1007px) {
+    
+    
+        html,
+    body {
+      max-width: auto;
+      overflow: visible;
+      margin: 0;
+        padding: 0;
+    }
+    
+    img.right-side-img-4 {
+        top: 51%;
+        left: 2%;
+        max-width: 49%;
+        height: 46%;
+    }
+    
+    h1.hero_title {
+        font-size: 2rem;
+    }
+    
+    p.hero-des {
+        font-size: .78rem;
+    }
+    
+    .hero_left_content {
+        padding-top: 20%;
+    }
+    
+    .rectengle-demo {}
+    
+    img.rectangle-img2 {
+        top: -2em;
+        left: -107%;
+    }
+    
+    img.review-img {
+        width: 59%;
+        height: auto;
+    }
+    
+    .all-hero-button {}
+    
+    .all-hero-button {height: auto;}
+    
+    }
+    
+    
+
+
+
+
 
 @media (max-width: 886px) {
     section.hero_section {
@@ -783,6 +763,29 @@ nav.navbar {
 
 }
 
+
+
+
+@media (max-width: 1290px) {
+
+
+    h2.taskino_title {
+        font-size: -webkit-xxx-large;
+    }
+    
+    h1.hero_title {
+        font-size: 2.83rem;
+    }
+    
+    p.hero-des {
+        font-size: 1rem;
+    }
+    
+    
+    
+    
+    
+    }
 
 @media (min-width: 1500px) {
     p.hero-des {
