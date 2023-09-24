@@ -93,7 +93,7 @@ p.hero-des {
 .review-img {
     width: 57%;
     height: 29vh;
-    transform: translateY(-2em);
+    transform: translateY(-1em);
     overflow: hidden;
     z-index: -1;
 }
@@ -204,7 +204,12 @@ p.hero-des {
 
 @media (max-width: 1290px) {
 
-
+    img.right-side-img-4 {
+        left: 3%;
+        max-width: 21vw;
+        object-fit: fill;
+        height: 41vh;
+    }   
 h2.taskino_title {
     font-size: -webkit-xxx-large;
 }
