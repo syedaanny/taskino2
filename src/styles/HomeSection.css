@@ -307,6 +307,12 @@ body {
     padding: 0;
 }
 
+img.right-side-img-4 {
+    top: 51%;
+    left: 2%;
+    max-width: 49%;
+    height: 46%;
+}
 
 h1.hero_title {
     font-size: 2rem;
@@ -382,13 +388,11 @@ mobile view
         padding-top: 0.2em;
         font-size: 1.2rem;
         font-weight: 600;
-        padding-bottom: .5em;
+        padding-bottom: 0.5em;
+        text-align: -webkit-center;
     }
     
-    .all-hero-button {
-        width: auto;
-        place-items: center;
-    }
+ 
     
     button.signupBtn {
         width: 15vw;
@@ -398,6 +402,7 @@ mobile view
         display: flex;
         justify-content: center;
         align-items: center;
+        place-items: center;
     }
     img.googleplay-img {
         height: 11vh;

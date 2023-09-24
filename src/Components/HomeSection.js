@@ -35,20 +35,18 @@ const HomeSection = () => {
             Maximize Productivity with Taskino! Plan, Organize, and Execute Your Tasks Effortlessly. Stay on Top of Your Day with Intuitive Tools for Efficient Task Management
           </p>
         </div>
-        <div className='all-hero-button'>
+        
         <div className='hero_button'>
           <button className='signupBtn'>Sign Up</button>
           
             <Image className='googleplay-img' src="/img/google-play-badge.png" width="1000" height="290" />
         
         
-        </div>
-
-        
-          <Image className='review-img' src="/img/review.png" width="1000" height="290" />
+     
           </div>
       
 
+          <Image className='review-img' src="/img/review.png" width="1000" height="290" />
 
 
       </div>
