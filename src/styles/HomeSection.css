@@ -296,6 +296,49 @@ img.right-side-img-4 {
 
 }
 
+@media (max-width: 1007px) {
+
+
+    html,
+body {
+  max-width: auto;
+  overflow: visible;
+  margin: 0;
+    padding: 0;
+}
+
+
+h1.hero_title {
+    font-size: 2rem;
+}
+
+p.hero-des {
+    font-size: .78rem;
+}
+
+.hero_left_content {
+    padding-top: 20%;
+}
+
+.rectengle-demo {}
+
+img.rectangle-img2 {
+    top: -2em;
+    left: -107%;
+}
+
+img.review-img {
+    width: 59%;
+    height: auto;
+}
+
+.all-hero-button {}
+
+.all-hero-button {height: auto;}
+
+}
+
+
 /* **********************************************************************************************************************************************************
 **********************************************************************************************************************************************************
 
